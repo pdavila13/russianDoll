@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Note extends Model
 {
+    Use Cacheable;
 
     /**
      * Relationships to touch, when updated.
